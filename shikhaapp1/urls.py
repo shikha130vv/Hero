@@ -24,6 +24,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('image_upload', post_image_view, name = 'image_upload'), 
+    path('', post_image_view, name = 'image_upload'), 
     path('success/<str:img_class>/', success, name = 'success'), 
 ] 
 
