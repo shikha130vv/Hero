@@ -1,4 +1,4 @@
 keras
 tensorflow
-pands
+pandas
 numpy
